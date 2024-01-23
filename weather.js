@@ -1,5 +1,6 @@
 const apikey = "c917d43da58988b570ff54a30e8599ef"; // write the activated api key here
 const apiurl = "https://api.openweathermap.org/data/2.5/weather"; // here we should write the api url
+// The API has been done by Daryan 
 
 const SearchBox = document.querySelector(".search input");
 const SearchBtn = document.querySelector(".search button");
@@ -51,7 +52,7 @@ SearchBtn.addEventListener("click", () => {
     CheckWeather();
 })
 
-SearchBox.addEventListener('keypress', function (e) {
+SearchBox.addEventListener('keypress', function (e) {  // Also this part has been done by Daryan
     if (e.key === 'Enter') {
       CheckWeather();
     }
